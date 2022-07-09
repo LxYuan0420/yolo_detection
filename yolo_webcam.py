@@ -14,7 +14,6 @@ def get_args():
     ap.add_argument(
         "-m",
         "--model",
-        required=False,
         help="base path to YOLO model weight directory",
         default="models/yolov3/",
     )
